@@ -1,3 +1,10 @@
+-------------Here’s how you can get it working:
+
+-------Go to this link and add the dataset to your account (choose the free trial): :backhand_index_pointing_right: Snowflake Public Data (Free) on Marketplace
+
+---Once that’s added, you can run the following SQL script to load the finance data. (Please note that I’ve needed to change Finance__Economics.CYBERSYN to SNOWFLAKE_PUBLIC_DATA_FREE.PUBLIC_DATA_FREE in the sample code you downloaded)
+
+
 USE ROLE accountadmin;
 
 CREATE WAREHOUSE IF NOT EXISTS compute_wh;
